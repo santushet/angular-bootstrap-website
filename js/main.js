@@ -189,7 +189,7 @@ app.controller('PageController', function ($scope) {
 	//map
 
 
-	var newyork = new google.maps.LatLng(40.712784, -74.005941);
+	var newyork = new google.maps.LatLng(13.027606, 77.587580);
 
 	var style = [
 		{
@@ -223,7 +223,7 @@ app.controller('PageController', function ($scope) {
 
 		// SET THE MAP STYLE & ZOOM LEVEL
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
-		zoom: 12,
+		zoom: 16,
 
 		// SET THE BACKGROUND COLOUR
 		backgroundColor: "#eeeeee",
